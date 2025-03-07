@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        button {
+            padding: 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select a Prediction Model</h1>
+    <div class="button-container">
+        <button onclick="window.location.href='/heart_attack'">Heart Attack Prediction</button>
+        <button onclick="window.location.href='/diabetes'">Diabetes Prediction</button>
+        <button onclick="window.location.href='/stroke'">Stroke Prediction</button>
+    </div>
+</body>
+</html>
