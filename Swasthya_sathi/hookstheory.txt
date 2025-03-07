@@ -1,0 +1,16 @@
+Hooks in React.js
+1) useEffect – Runs code when state or props change.
+
+If [] (empty array) is passed, it runs only on the first render.
+If [props or variables] are passed, it runs whenever those values change.
+2) useState – Creates and manages state in a component.
+
+Helps in updating values and re-rendering the component when the state changes.
+3) useContext – Provides a way to share data (like global state) across multiple components without prop drilling.
+
+4)useMemo – Optimizes performance by memoizing expensive calculations.
+
+The function inside useMemo runs only when dependencies change, preventing unnecessary re-executions.
+5) useRef – Stores a value that does not change across re-renders.
+
+Useful for accessing DOM elements or keeping a value without causing re-renders.
